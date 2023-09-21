@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/redbox/static/css/main.58c5a939.css",
+    "main.js": "/redbox/static/js/main.82808d33.js",
+    "static/js/787.a2ce0393.chunk.js": "/redbox/static/js/787.a2ce0393.chunk.js",
+    "static/media/hero.png": "/redbox/static/media/hero.6579305f695953effbee.png",
+    "static/media/find-us.jpg": "/redbox/static/media/find-us.a2dd81da58fb9aef8d23.jpg",
+    "static/media/gallery-05.jpg": "/redbox/static/media/gallery-05.0ae974aa2bb577bcf67c.jpg",
+    "static/media/gallery-03.jpg": "/redbox/static/media/gallery-03.c9ea6ebe6bf10ed12060.jpg",
+    "static/media/gallery-04.jpg": "/redbox/static/media/gallery-04.48a9c2bac7118772f20e.jpg",
+    "static/media/gallery-01.jpg": "/redbox/static/media/gallery-01.85827c5385cbdcf78a0f.jpg",
+    "static/media/gallery-02.jpg": "/redbox/static/media/gallery-02.2fea1f5ba8ca112ff8ec.jpg",
+    "index.html": "/redbox/index.html",
+    "main.58c5a939.css.map": "/redbox/static/css/main.58c5a939.css.map",
+    "main.82808d33.js.map": "/redbox/static/js/main.82808d33.js.map",
+    "787.a2ce0393.chunk.js.map": "/redbox/static/js/787.a2ce0393.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58c5a939.css",
+    "static/js/main.82808d33.js"
+  ]
+}
