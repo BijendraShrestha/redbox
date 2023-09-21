@@ -1,0 +1,28 @@
+@import '../../scss/style.scss';
+
+nav{
+    background-color: $color-back;
+    .logo-img{
+        width:160px;
+        background-color: white;
+        border-radius: 35%;
+        padding: 10px;
+        
+    }
+    .nav-item{
+        font-size: 1.6rem;
+        padding: 0 1rem;
+        font-family: $font-1;
+        font-weight:500;
+        .nav-link{
+            color:#000000;
+            &:hover{
+                // background-color:white;
+                color: white;
+                // border-radius: 35%;
+                }
+            }
+        }
+    
+}
+

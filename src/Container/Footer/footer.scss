@@ -1,0 +1,69 @@
+@import '../../scss/style.scss';
+
+.footer-section{
+    background-color: $color-back;
+    
+    .footer-container{
+       
+        padding:0 20px;
+        .footer-row{
+          
+            .footer-left{
+                text-align: left;
+                @include sm{
+                    text-align: center;
+                }
+                @include md{
+                    text-align: center;
+                }
+                .footer-h3{
+                    font-family: $font-1;
+                    font-size: 2rem;
+                    margin-top: 10px;
+                }
+                span{
+                    font-weight: 600;
+                }
+            }
+            .footer-mid{
+                text-align: center;
+                @include sm{
+                    text-align: center;
+                    margin-top:30px;
+                }
+                @include md{
+                    text-align: center;
+                    margin-top:30px;
+                }
+                img{
+                    margin-bottom: 30px;
+                    background-color: white;
+                    border-radius: 10px;
+                   
+                }
+                .social{
+                    svg{
+                        margin: 10px;
+                        font-size: 2rem;
+                    }
+                    
+                }
+            }
+            .footer-right{
+                text-align: right;
+                @include sm{
+                    text-align: center;
+                }
+                @include md{
+                    text-align: center;
+                    margin-top:30px;
+                }
+                .footer-h3{
+                    font-family: $font-1;
+                    font-size: 2rem;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}

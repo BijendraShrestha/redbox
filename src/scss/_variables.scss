@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+//Colors
+$color-primary:#FF6B4A;
+$color-back:#fa5b37;
+$color-grey:#E8E8E8;
+
+//fonts
+$font-1:'Courgette', cursive;
+$font-2:'Roboto', sans-serif;
+
+//Subheading
+.sub-flavor{
+    font-family: $font-2;
+}
+
+body{
+    height:1990px;
+}

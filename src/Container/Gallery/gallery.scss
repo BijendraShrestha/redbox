@@ -1,0 +1,54 @@
+@import '../../scss/style.scss';
+
+// 
+section{
+    // background-color: $color-primary;
+    .gallery-container{
+       .gallery-left{
+        text-align: left;
+        @include sm{
+            text-align: center;
+        }
+        @include lg{
+            text-align: center;
+        }
+        .gallery-h1{
+            font-family: $font-1;
+            color:$color-primary;
+        }
+        // .gallery-p{
+            
+        // }
+        .custom-button{
+                margin-right: 20px;
+                padding: 10px;
+                background-color: transparent;
+                font-family: $font-2;
+                font-weight: 500;
+                border: 2px solid $color-back;
+                color:$color-back;
+                &:hover{
+                    background-color: $color-back;
+                    color: white;
+                    
+                }
+            }
+       }
+       .gallery-right{
+        padding-top: 30px;
+        .card{
+            border: 5px solid $color-back;
+            @include xl{
+                width: 90%;
+                margin-left:30px;
+            }
+        }
+        .owl-theme .owl-nav{
+            display: none;
+        }
+        .owl-theme .owl-dots .owl-dot span{
+            display: none;
+        }
+       } 
+    }
+}

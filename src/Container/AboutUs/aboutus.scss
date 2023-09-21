@@ -1,0 +1,41 @@
+@import '../../scss/style.scss';
+
+.aboutUs-container{
+    .aboutUs-fast{
+       .aboutUs-h1{
+        font-family: $font-1;
+        color: $color-primary;
+        margin-bottom:20px;
+        font-size: 4rem;
+        @include sm{
+            font-size: 2rem;
+        }
+        @include md{
+            font-size: 3rem;
+        }
+       }
+        .aboutUs-p{
+            padding:0 90px;
+            margin-top: 20px;
+            font-family: $font-2;
+            @include sm{
+                
+                justify-items: center;
+                padding: 20px;
+            }
+        }
+    }
+    .about-content{
+        border: none;
+        gap:1rem;
+        padding: 0 20px;
+        @include sm{
+            margin-top: 20px;
+        }
+        .about-content-h3{
+            font-family: $font-2;
+            font-weight: 400;
+            font-size: 1.7rem;
+        }
+    }
+}
